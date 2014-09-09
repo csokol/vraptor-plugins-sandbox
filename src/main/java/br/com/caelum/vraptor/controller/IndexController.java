@@ -1,9 +1,12 @@
 package br.com.caelum.vraptor.controller;
 
-import javax.inject.Inject;
+import br.com.caelum.vraptor.Controller;
+import br.com.caelum.vraptor.Get;
+import br.com.caelum.vraptor.Post;
+import br.com.caelum.vraptor.Result;
+import br.com.caelum.vraptor.modelform.ModelForm;
 
-import br.com.caelum.vraptor.*;
-import br.com.caelum.vraptor.form.modelform.ModelForm;
+import javax.inject.Inject;
 
 @Controller
 public class IndexController {
