@@ -1,10 +1,9 @@
 package br.com.caelum.vraptor.controller;
 
+import br.com.caelum.vraptor.Controller;
 import br.com.caelum.vraptor.quartzjob.CronTask;
 
-/**
- * Created by csokol on 9/15/14.
- */
+@Controller
 public class TestJob implements CronTask {
 	@Override
 	public void execute() {
